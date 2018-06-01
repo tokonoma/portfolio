@@ -17,7 +17,7 @@
     <link href="assets/css/custom.css" rel="stylesheet">
 
     <!--web font-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,500i,700" rel="stylesheet">
 
     <!--[if lt IE 9]><script src=../assets/js/ie8-responsive-file-warning.js></script><![endif]-->
     <!--[if lt IE 9]> <script src=https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js></script> <script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script> <![endif]-->
@@ -30,4 +30,4 @@
     <!--<link href="/favicon.ico" rel="icon">-->
 </head>
 
-<body class="hakushi">
+<body>
