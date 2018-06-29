@@ -149,6 +149,7 @@ body > .container:last-of-type{
 	width: 72px;
 	background: #ffffff;
 	height: 100vh;
+	display: none;
 }
 
 .menu-buffer{
@@ -173,11 +174,8 @@ body > .container:last-of-type{
 @media(max-width:576px){
 
 }
-@media(max-width:767px){
-	#side-nav{
-		display: none;
-	}
 
+@media(max-width:767px){
 	body.modal-open{
 		position:fixed;
 	}
@@ -200,15 +198,32 @@ body > .container:last-of-type{
 		font-size: 16px;
 	}
 }
-@media(min-width:768px){
-	.menu-buffer{
-		padding: 0px 96px;
-	}
 
+@media (min-width: 576px){
+	.container{
+		max-width: 100%;
+	}
 }
+
+@media(min-width:768px){
+	.container{
+		max-width: 100%;
+	}
+}
+
 @media(min-width:992px){
+	#side-nav{
+		display: block;
+	}
+	.container{
+		max-width: 768px;
+	}
 }
+
 @media(min-width:1200px){
+	.container{
+		max-width: 948px;
+	}
 }
 
 /*special queries*/
