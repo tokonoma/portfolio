@@ -30,4 +30,4 @@
     <!--<link href="/favicon.ico" rel="icon">-->
 </head>
 
-<body>
+<body class="gradient-1">

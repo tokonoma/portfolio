@@ -1,14 +1,5 @@
 <?php
 
-// $ch = curl_init();
-// curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-// curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-// curl_setopt($ch, CURLOPT_URL, 'http://timothyreeder.com/kakikomi/?api=json');
-// $postsJson = curl_exec($ch);
-// curl_close($ch);
-
-// $postsArray = json_decode($postsJson);
-
 $url="http://timothyreeder.com/kakikomi/api/";
 
 $ch = curl_init(); 
@@ -41,7 +32,6 @@ curl_close($ch);
                 </p>
                 <?php var_dump(json_decode($result, true)); ?>
             </div>
-
         </div>
     </div>
 </div>
